@@ -1,5 +1,9 @@
 // Descripttion : Node.js HTML client
 // requires : npm install express ejs body-parser
+// "axios": "^1.6.7",
+//     "body-parser": "^1.20.2",
+//     "ejs": "^3.1.9",
+//     "express": "^4.18.2"
 
 const express = require('express');
 const axios  = require('axios');
@@ -9,7 +13,8 @@ const e = require('express');
 
 // Base URL for the API
 // const base_url = "https;//api.example.com"
-const base_url = "http://localhost:3000";
+// const base_url = "http://localhost:3000";
+const base_url = "http://node57135-thitirat-noderest.proen.app.ruk-com.cloud";
 
 // Set the template engine
 app.set('view engine', 'ejs');
